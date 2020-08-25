@@ -26,24 +26,5 @@ footer {
       height: 25%;
       width: 25%;
   }
+/* ANIMATION*/
 
-/* Wave Animation */
-body {
-    animation-duration: 5s;
-    animation-name: slidein;
-    animation-iteration-count: 5s;
-}
-
-@keyframes slidein {
-  0% {
-    margin-left: 0%;
-  }
-  50% {
-    margin-left: 300px;
-  }
-  100% {
-    margin-left: 0%;
-  }
-}
-
-  
