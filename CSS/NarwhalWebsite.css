@@ -1,7 +1,30 @@
+.nav-item {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+
 body {
-    background-image: url('AnimalWebsite/img/Narwhal.jpg');
+    background-image: url('LighterNarwhal.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+  p {
+   color: black;
+   border-style: solid;
+   font-family: Arial, Helvetica, sans-serif;
+ background-color: powderblue;
+  font-size: large;
+}
+
+footer {
+      text-align: center;
+      margin: auto;
+      padding: 10px;
+      height: 25%;
+      width: 25%;
   }
 
-  .nav {
-background-color: pink;
-  }
+  
