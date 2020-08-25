@@ -27,15 +27,23 @@ footer {
       width: 25%;
   }
 
- /* Bubbles copy/pasted
- body, html {
-    padding: 0;
+/* Wave Animation */
+body {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 5s;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
   }
-  
-  body {
-    background: rgba(241, 226, 215, 0.2);
-    background: #fff;
+  50% {
+    margin-left: 300px;
   }
-   */
+  100% {
+    margin-left: 0%;
+  }
+}
 
   
