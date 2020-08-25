@@ -43,11 +43,13 @@
       </nav>
       
   </head>
-  <!--ANIMATION-->
+  
 
   <body>
-<!--Sound Wave-->
+<!--Audio-->
+<audio id="sound"><source src="onclicksound.wav" type="audio/WAV"></audio>
 
+  
       <!--COLUMNS/GRIDS-->
 
       <div class="container">
@@ -94,8 +96,9 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">I agree to terms</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      
+        <!--button for audio-->
+        <button on click="play()" type="submit" class="btn btn-primary">Submit</button>
+        
     </form>
   </footer>
 </html>

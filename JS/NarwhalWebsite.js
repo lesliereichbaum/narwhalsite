@@ -439,3 +439,19 @@ var self = window;
 	window.addEventListener ? window.addEventListener('load', init, false) : window.onload = init;
 	
 })(self);
+
+//AUDIO
+function play(){
+    var audio = document.getElementById("sound");
+               audio.play();
+               }
+
+// var x = document.getElementById("myAudio"); 
+
+// function playAudio() { 
+//   x.play(); 
+// } 
+
+// function pauseAudio() { 
+//   x.pause(); 
+// } 
